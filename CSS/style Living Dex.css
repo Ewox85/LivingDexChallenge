@@ -64,7 +64,7 @@ body{
 	border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
 	border-top-left-radius: 50px;
-	margin: 0 100px;
+	margin: auto;
 }
 
 h1{
@@ -84,7 +84,7 @@ nav{
 	border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
 	border-top-left-radius: 50px;
-	margin: 0 100px;
+	margin: auto;
 }
 
 td,th{
