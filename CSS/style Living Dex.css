@@ -49,6 +49,7 @@ table {
 /*------------------------------------*/
 
 html{
+	margin: auto;
 	background-color: #333333;
 }
 
@@ -88,11 +89,13 @@ nav{
 }
 
 td,th{
+	margin: auto;
 	text-align: center;
     	border: 1px solid black;
 }
 
 table{
+	margin: auto;
 	text-align: center;
     	border-collapse: collapse;
 }
