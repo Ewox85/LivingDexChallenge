@@ -89,12 +89,12 @@ nav{
 
 td,th{
 	text-align: center;
-    border: 1px solid black;
+    	border: 1px solid black;
 }
 
 table{
 	text-align: center;
-    border-collapse: collapse;
+    	border-collapse: collapse;
 }
 
 p{
@@ -190,7 +190,7 @@ header li:hover .sub-menu {
 }
 
 table{
-
+	margin: auto;
 	font-weight: bold;
 	border-collapse : separate;
  	border-spacing : 10px;
@@ -210,6 +210,7 @@ th{
 }
 
 td{
+	margin: auto;
 	text-align: center;
 	border-bottom-right-radius: 20px;
 	border-top-right-radius: 20px;
