@@ -225,12 +225,12 @@ td{
 
 .invisible{
 	border-width: 0px;
-	background-color: #D6D6D6;
+	background-color: #00675b;
 }
 
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
 /*------------------------------------*/
 .Kabuto{
-	background-color: yellow
+	background-color: #ffc800
 }
