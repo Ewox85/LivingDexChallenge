@@ -50,13 +50,13 @@ table {
 
 html{
 	margin: auto;
-	background-color: #00675b;
+	background-color: #333333;
 }
 
 body{
 	text-align: center;
 	padding: 0;
-	background-color: #D6D6D6;
+	background-color: #00675b;
 	text-align: center;
 	border-style: solid;
 	border-color: black;
