@@ -52,6 +52,8 @@ html{
 	margin: auto;
 	background-color: #333333;
 	font-family: Segoe UI Black;
+	box-shadow: inset 10px 10px 50px #2c2c2c, 
+    inset -10px -10px 50px #5c5c5c;
 }
 
 body{
@@ -69,6 +71,8 @@ body{
 	width: 1500px;
 	text-align: center;
 	margin: auto;
+	box-shadow: inset 10px 10px 50px #015C51, 
+    inset -10px -10px 50px #014F46;
 }
 
 h1{
@@ -78,29 +82,28 @@ h1{
 }
 
 nav{
+	border-style: solid;
 	border-width: 5px;
+	border-color: black;
 	text-align:center;
 	font-weight:bold;
-	border-style: solid;
-	border-color: black;
 	font-size: 20px;
 	border-bottom-right-radius: 50px;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
 	border-top-left-radius: 50px;
-	margin: auto;
 }
 
 td,th{
 	margin: auto;
 	text-align: center;
-    	border: 1px solid black;
+    border: 1px solid black;
 }
 
 table{
 	margin: auto;
 	text-align: center;
-    	border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 p{
@@ -231,6 +234,70 @@ td{
 	background-color: #00675b;
 }
 
+.container .bar:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.bar {
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	margin-left: 25%;
+	margin-right: 25%;
+    background: #444;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 10px #2c2c2c, 
+    inset -5px -5px 10px #5c5c5c;
+}
+
+.bar-stat{
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-shadow: 0 0 5px #000;
+}
+
+#html{
+    background: #d65c3d;
+    animation: htmlSlide 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+#css{
+    background: #3755cc;
+    animation: cssSlide 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+#js{
+    background: #d4a040;
+    animation: jsSlide 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+@keyframes htmlSlide{
+    0%{width: 0%;}
+    100%{width: 7.1%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+}
+
+@keyframes cssSlide{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+@keyframes jsSlide{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*------------------------------------*/
+/*67 Pokemon trouvé sur 940*/
+/*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
 /*------------------------------------*/
@@ -498,5 +565,9 @@ td{
 }
 
 .Zorua{
+	background-color: #ffc800;
+}
+
+.Crabaraque{
 	background-color: #ffc800;
 }
