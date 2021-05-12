@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*73* Pokemon trouvé sur 940*/
+/*79* Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -612,5 +612,9 @@ td{
 }
 
 .Poissirène{
+	background-color: #ffc800;
+}
+
+.Majaspic{
 	background-color: #ffc800;
 }
