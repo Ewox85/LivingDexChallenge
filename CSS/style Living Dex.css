@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 7.1%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 7.7%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*67 Pokemon trouvé sur 940*/
+/*73* Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -569,5 +569,29 @@ td{
 }
 
 .Crabaraque{
+	background-color: #ffc800;
+}
+
+.Ptitard{
+	background-color: #ffc800;
+}
+
+.Bekaglacon{
+	background-color: #ffc800;
+}
+
+.Medhyèna{
+	background-color: #ffc800;
+}
+
+.Mysdibule{
+	background-color: #ffc800;
+}
+
+.Blancoton{
+	background-color: #ffc800;
+}
+
+.Regieleki{
 	background-color: #ffc800;
 }
