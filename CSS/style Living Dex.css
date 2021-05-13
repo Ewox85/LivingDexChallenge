@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 7.7%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 8.6%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
