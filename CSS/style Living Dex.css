@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 10.7%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 11.4%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*101* Pokemon trouvé sur 940*/
+/*108* Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -700,5 +700,33 @@ td{
 }
 
 .Crèmy{
+	background-color: #ffc800;
+}
+
+.Picassaut{
+	background-color: #ffc800;
+}
+
+.Noacier{
+	background-color: #ffc800;
+}
+
+.Ponchiot{
+	background-color: #ffc800;
+}
+
+.Coquiperl{
+	background-color: #ffc800;
+}
+
+.Aspicot{
+	background-color: #ffc800;
+}
+
+.Tarenbulle{
+	background-color: #ffc800;
+}
+
+.Nidoqueen{
 	background-color: #ffc800;
 }
