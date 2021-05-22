@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 11.4%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 13.2%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*114* Pokemon trouvé sur 940*/
+/*125* Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -752,5 +752,49 @@ td{
 }
 
 .Gringolem{
+	background-color: #ffc800;
+}
+
+.Bouldeneu{
+	background-color: #ffc800;
+}
+
+.Tentacool{
+	background-color: #ffc800;
+}
+
+.Marill{
+	background-color: #ffc800;
+}
+
+.Entei{
+	background-color: #ffc800;
+}
+
+.Florizar{
+	background-color: #ffc800;
+}
+
+.Dunacoda{
+	background-color: #ffc800;
+}
+
+.M.Mime{
+	background-color: #ffc800;
+}
+
+.Métalosse{
+	background-color: #ffc800;
+}
+
+.Couafarel{
+	background-color: #ffc800;
+}
+
+.Kabutops{
+	background-color: #ffc800;
+}
+
+.Lanssorien{
 	background-color: #ffc800;
 }
