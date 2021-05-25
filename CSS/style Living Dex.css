@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 13.2%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 15%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*125* Pokemon trouvé sur 940*/
+/*141* Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -796,5 +796,69 @@ td{
 }
 
 .Lanssorien{
+	background-color: #ffc800;
+}
+
+.Lancargot{
+	background-color: #ffc800;
+}
+
+.Libégon{
+	background-color: #ffc800;
+}
+
+.Deflaisan-m{
+	background-color: #ffc800;
+}
+
+.Ho-Oh{
+	background-color: #ffc800;
+}
+
+.Dracaufeu{
+	background-color: #ffc800;
+}
+
+.Crabicoque{
+	background-color: #ffc800;
+}
+
+.Pyronille{
+	background-color: #ffc800;
+}
+
+.Togedemaru{
+	background-color: #ffc800;
+}
+
+.Luxray{
+	background-color: #ffc800;
+}
+
+.Lixy{
+	background-color: #ffc800;
+}
+
+.Canarticho{
+	background-color: #ffc800;
+}
+
+.Axoloto{
+	background-color: #ffc800;
+}
+
+.Luxio{
+	background-color: #ffc800;
+}
+
+.Lainergie{
+	background-color: #ffc800;
+}
+
+.Araqua{
+	background-color: #ffc800;
+}
+
+.Carabaffe{
 	background-color: #ffc800;
 }
