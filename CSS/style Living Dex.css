@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 15%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 15.1%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*141* Pokemon trouvé sur 940*/
+/*142 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -349,6 +349,7 @@ td{
 .Monorpale{
 	background-color: #ffc800
 }
+
 .Roucool{
 	background-color: #ffc800
 }
@@ -576,7 +577,7 @@ td{
 	background-color: #ffc800;
 }
 
-.Bekaglacon{
+.Bekaglaçon{
 	background-color: #ffc800;
 }
 
@@ -623,7 +624,7 @@ td{
 	background-color: #ffc800;
 }
 
-.Miaouss.A{
+.MiaoussA{
 	background-color: #ffc800;
 }
 
@@ -687,7 +688,7 @@ td{
 	background-color: #ffc800;
 }
 
-.Tadmorv.A{
+.TadmorvA{
 	background-color: #ffc800;
 }
 
@@ -775,11 +776,11 @@ td{
 	background-color: #ffc800;
 }
 
-.Dunacoda{
+.Dunaconda{
 	background-color: #ffc800;
 }
 
-.M.Mime{
+.MMime{
 	background-color: #ffc800;
 }
 
@@ -860,5 +861,9 @@ td{
 }
 
 .Carabaffe{
+	background-color: #ffc800;
+}
+
+.Manzaï{
 	background-color: #ffc800;
 }
