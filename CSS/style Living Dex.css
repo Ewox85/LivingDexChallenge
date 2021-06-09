@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 15.1%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 19.36%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*166 Pokemon trouvé sur 940*/
+/*182 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -868,15 +868,7 @@ td{
 	background-color: #ffc800;
 }
 
-.Pharamp{
-	background-color: #ffc800;
-}
-
-.Skitty{
-	background-color: #ffc800;
-}
-
-.Mélo{
+.Suicune{
 	background-color: #ffc800;
 }
 
@@ -884,71 +876,15 @@ td{
 	background-color: #ffc800;
 }
 
-.Sarmuraï{
+.Pandespiègle{
 	background-color: #ffc800;
 }
 
-.Lumivole{
+.Papinox{
 	background-color: #ffc800;
 }
 
-.Rexillius{
-	background-color: #ffc800;
-}
-
-.Tarsal{
-	background-color: #ffc800;
-}
-
-.Chamallot{
-	background-color: #ffc800;
-}
-
-.Ortide{
-	background-color: #ffc800;
-}
-
-.Avaltout{
-	background-color: #ffc800;
-}
-
-.Yanma{
-	background-color: #ffc800;
-}
-
-.Ramoloss{
-	background-color: #ffc800;
-}
-
-.Archéomire{
-	background-color: #ffc800;
-}
-
-.Ossatueur{
-	background-color: #ffc800;
-}
-
-.Togepi{
-	background-color: #ffc800;
-}
-
-.Debugant{
-	background-color: #ffc800;
-}
-
-.Carapagos{
-	background-color: #ffc800;
-}
-
-.Rubombelle{
-	background-color: #ffc800;
-}
-
-.LimondeG{
-	background-color: #ffc800;
-}
-
-.Sepiatop{
+.Cancrelove{
 	background-color: #ffc800;
 }
 
@@ -956,10 +892,142 @@ td{
 	background-color: #ffc800;
 }
 
-.Croquine{
+.Ramoloss{
+	background-color: #ffc800;
+}
+
+.Miasmiasme{
+	background-color: #ffc800;
+}
+
+.Chamallot{
+	background-color: #ffc800;
+}
+
+.Mélo{
+	background-color: #ffc800;
+}
+
+.Scalproie{
+	background-color: #ffc800;
+}
+
+.Ecrémeuh{
+	background-color: #ffc800;
+}
+
+.Crocorible{
 	background-color: #ffc800;
 }
 
 .Sharpedo{
+	background-color: #ffc800;
+}
+
+.LimondeG{
+	background-color: #ffc800;
+}
+
+.Rubombelle{
+	background-color: #ffc800;
+}
+
+.Ortide{
+	background-color: #ffc800;
+}
+
+.Rexillius{
+	background-color: #ffc800;
+}
+
+.Avaltout{
+	background-color: #ffc800;
+}
+
+.piafabec{
+	background-color: #ffc800;
+}
+
+.Trousselin{
+	background-color: #ffc800;
+}
+
+.GoupixA{
+	background-color: #ffc800;
+}
+
+.Stalgamin{
+	background-color: #ffc800;
+}
+
+.Magnéti{
+	background-color: #ffc800;
+}
+
+.Croquine{
+	background-color: #ffc800;
+}
+
+.Sepiatop{
+	background-color: #ffc800;
+}
+
+.Carapagos{
+	background-color: #ffc800;
+}
+
+.Yanma{
+	background-color: #ffc800;
+}
+
+.Ossatueur{
+	background-color: #ffc800;
+}
+
+.Lumivole{
+	background-color: #ffc800;
+}
+
+.Blindalys{
+	background-color: #ffc800;
+}
+
+.GalopaG{
+	background-color: #ffc800;
+}
+
+.Wattouat{
+	background-color: #ffc800;
+}
+
+.Debugant{
+	background-color: #ffc800;
+}
+
+.Togepi{
+	background-color: #ffc800;
+}
+
+.Archéomire{
+	background-color: #ffc800;
+}
+
+.Tarsal{
+	background-color: #ffc800;
+}
+
+.Sarmuraï{
+	background-color: #ffc800;
+}
+
+.Skitty{
+	background-color: #ffc800;
+}
+
+.Pharamp{
+	background-color: #ffc800;
+}
+
+.Pharamp{
 	background-color: #ffc800;
 }
