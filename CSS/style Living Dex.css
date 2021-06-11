@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 19.36%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 21.20%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*182 Pokemon trouvé sur 940*/
+/*193 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1028,6 +1028,46 @@ td{
 	background-color: #ffc800;
 }
 
-.Pharamp{
+.Moumouton{
+	background-color: #ffc800;
+}
+
+.Terhal{
+	background-color: #ffc800;
+}
+
+.Métang{
+	background-color: #ffc800;
+}
+
+.Croâporal{
+	background-color: #ffc800;
+}
+
+.Guérilande{
+	background-color: #ffc800;
+}
+
+.Lucanon{
+	background-color: #ffc800;
+}
+
+.Tranchodon{
+	background-color: #ffc800;
+}
+
+.FeunardA{
+	background-color: #ffc800;
+}
+
+.Scarabrute{
+	background-color: #ffc800;
+}
+
+.Sonistrelle{
+	background-color: #ffc800;
+}
+
+.Abo{
 	background-color: #ffc800;
 }
