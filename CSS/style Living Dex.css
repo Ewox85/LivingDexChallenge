@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 21.48%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 22.7%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*202 Pokemon trouvé sur 940*/
+/*214 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1104,6 +1104,54 @@ td{
 	background-color: #ffc800;
 }
 
-.Rémoraid{
+.Phogleur{
+	background-color: #ffc800;
+}
+
+.Geolithe{
+	background-color: #ffc800;
+}
+
+.Concombaffe{
+	background-color: #ffc800;
+}
+
+.Maracachi{
+	background-color: #ffc800;
+}
+
+.Mimantis{
+	background-color: #ffc800;
+}
+
+.Larvibule{
+	background-color: #ffc800;
+}
+
+.Kabuto{
+	background-color: #ffc800;
+}
+
+.Clic{
+	background-color: #ffc800;
+}
+
+.Scarhino{
+	background-color: #ffc800;
+}
+
+.Coupenotte{
+	background-color: #ffc800;
+}
+
+.Boumata{
+	background-color: #ffc800;
+}
+
+.Ectoplasma{
+	background-color: #ffc800;
+}
+
+.Ectoplasma{
 	background-color: #ffc800;
 }
