@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 22.7%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 24.04%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*214 Pokemon trouvé sur 940*/
+/*226 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1152,6 +1152,58 @@ td{
 	background-color: #ffc800;
 }
 
-.Ectoplasma{
+.Ningale{
+	background-color: #ffc800;
+}
+
+.Crabagarre{
+	background-color: #ffc800;
+}
+
+.TutafehG{
+	background-color: #ffc800;
+}
+
+.Crabominable{
+	background-color: #ffc800;
+}
+
+.Ecrapince{
+	background-color: #ffc800;
+}
+
+.Chuchmur{
+	background-color: #ffc800;
+}
+
+.Relicanth{
+	background-color: #ffc800;
+}
+
+.Melancolux{
+	background-color: #ffc800;
+}
+
+.rapasdepic{
+	background-color: #ffc800;
+}
+
+.Tokopisco{
+	background-color: #ffc800;
+}
+
+.Dynavolt{
+	background-color: #ffc800;
+}
+
+.Lunala{
+	background-color: #ffc800;
+}
+
+.Mucuscule{
+	background-color: #ffc800;
+}
+
+.Mucuscule{
 	background-color: #ffc800;
 }
