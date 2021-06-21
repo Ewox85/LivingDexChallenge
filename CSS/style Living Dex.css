@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 24.04%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 25.31%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*226 Pokemon trouvé sur 940*/
+/*238 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1204,6 +1204,54 @@ td{
 	background-color: #ffc800;
 }
 
-.Mucuscule{
+.Heatran{
+	background-color: #ffc800;
+}
+
+.Férosinge{
+	background-color: #ffc800;
+}
+
+.Porygon{
+	background-color: #ffc800;
+}
+
+.Mimiqui{
+	background-color: #ffc800;
+}
+
+.Saquedeneu{
+	background-color: #ffc800;
+}
+
+.Denticrisse{
+	background-color: #ffc800;
+}
+
+.Hypotrempe{
+	background-color: #ffc800;
+}
+
+.RattataA{
+	background-color: #ffc800;
+}
+
+.Flotajou{
+	background-color: #ffc800;
+}
+
+.Baudrive{
+	background-color: #ffc800;
+}
+
+.Manglouton{
+	background-color: #ffc800;
+}
+
+.Azumarill{
+	background-color: #ffc800;
+}
+
+.Azumarill{
 	background-color: #ffc800;
 }
