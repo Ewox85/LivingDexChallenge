@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 25.31%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 27.23%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*238 Pokemon trouvé sur 940*/
+/*256 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1252,6 +1252,78 @@ td{
 	background-color: #ffc800;
 }
 
-.Azumarill{
+.MMimeG{
+	background-color: #ffc800;
+}
+
+.Octillery{
+	background-color: #ffc800;
+}
+
+.Sorcilence{
+	background-color: #ffc800;
+}
+
+.Scalpion{
+	background-color: #ffc800;
+}
+
+.Incisache{
+	background-color: #ffc800;
+}
+
+.Qwilfish{
+	background-color: #ffc800;
+}
+
+.Demeteros{
+	background-color: #ffc800;
+}
+
+.Wailmer{
+	background-color: #ffc800;
+}
+
+.Corayon{
+	background-color: #ffc800;
+}
+
+.Tokorico{
+	background-color: #ffc800;
+}
+
+.Dolman{
+	background-color: #ffc800;
+}
+
+.Nucleos{
+	background-color: #ffc800;
+}
+
+.Têtarte{
+	background-color: #ffc800;
+}
+
+.Magmar{
+	background-color: #ffc800;
+}
+
+.Moyade-m{
+	background-color: #ffc800;
+}
+
+.Phione{
+	background-color: #ffc800;
+}
+
+.Roublenard{
+	background-color: #ffc800;
+}
+
+.Vibraninf{
+	background-color: #ffc800;
+}
+
+.Vibraninf{
 	background-color: #ffc800;
 }
