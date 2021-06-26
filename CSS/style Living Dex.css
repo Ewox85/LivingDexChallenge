@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 27.23%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 27.87%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*256 Pokemon trouvé sur 940*/
+/*262 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1324,6 +1324,26 @@ td{
 	background-color: #ffc800;
 }
 
-.Vibraninf{
+.Mamanbo{
+	background-color: #ffc800;
+}
+
+.Électrode{
+	background-color: #ffc800;
+}
+
+.Linéon{
+	background-color: #ffc800;
+}
+
+.Magicarpe{
+	background-color: #ffc800;
+}
+
+.Togetic{
+	background-color: #ffc800;
+}
+
+.Carmache{
 	background-color: #ffc800;
 }
