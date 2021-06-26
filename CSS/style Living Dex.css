@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 27.87%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 28.19%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*262 Pokemon trouvé sur 940*/
+/*265 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1345,5 +1345,21 @@ td{
 }
 
 .Carmache{
+	background-color: #ffc800;
+}
+
+.Brindibou{
+	background-color: #ffc800;
+}
+
+.Floramantis{
+	background-color: #ffc800;
+}
+
+.Tritox{
+	background-color: #ffc800;
+}
+
+.Tritox{
 	background-color: #ffc800;
 }
