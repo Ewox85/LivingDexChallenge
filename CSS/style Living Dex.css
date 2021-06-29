@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 28.93%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 29.57%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*272 Pokemon trouvé sur 940*/
+/*278 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1388,6 +1388,30 @@ td{
 	background-color: #ffc800;
 }
 
-.Lampignon{
+.Dispareptil{
+	background-color: #ffc800;
+}
+
+.Léviator{
+	background-color: #ffc800;
+}
+
+.Strassie{
+	background-color: #ffc800;
+}
+
+.Candine{
+	background-color: #ffc800;
+}
+
+.Hexagel{
+	background-color: #ffc800;
+}
+
+.Drakkarmin{
+	background-color: #ffc800;
+}
+
+.Drakkarmin{
 	background-color: #ffc800;
 }
