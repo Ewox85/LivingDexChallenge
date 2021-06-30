@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 29.57%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 30.21%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*278 Pokemon trouvé sur 940*/
+/*284 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1412,6 +1412,30 @@ td{
 	background-color: #ffc800;
 }
 
-.Drakkarmin{
+.Insécateur{
+	background-color: #ffc800;
+}
+
+.Carchacrok{
+	background-color: #ffc800;
+}
+
+.Nodulithe{
+	background-color: #ffc800;
+}
+
+.Yveltal{
+	background-color: #ffc800;
+}
+
+.Drackhaus{
+	background-color: #ffc800;
+}
+
+.Dodoala{
+	background-color: #ffc800;
+}
+
+.Dodoala{
 	background-color: #ffc800;
 }
