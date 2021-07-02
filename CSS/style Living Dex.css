@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 31.06%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 31.59%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*292 Pokemon trouvé sur 940*/
+/*297 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1468,6 +1468,26 @@ td{
 	background-color: #ffc800;
 }
 
-.Sabelette{
+.Cadoizo{
+	background-color: #ffc800;
+}
+
+.Rhinoféros{
+	background-color: #ffc800;
+}
+
+.Sancoki-f{
+	background-color: #ffc800;
+}
+
+.Nigosier{
+	background-color: #ffc800;
+}
+
+.Braségali{
+	background-color: #ffc800;
+}
+
+.Braségali{
 	background-color: #ffc800;
 }
