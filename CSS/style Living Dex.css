@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 31.59%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 33.29%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*297 Pokemon trouvé sur 940*/
+/*313 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1488,6 +1488,69 @@ td{
 	background-color: #ffc800;
 }
 
-.Braségali{
+.SablaireauA{
+	background-color: #ffc800;
+}
+
+.Necrozma{
+	background-color: #ffc800;
+}
+
+.Makuhita{
+	background-color: #ffc800;
+}
+
+.Hypocéan{
+	background-color: #ffc800;
+}
+
+.Latios{
+	background-color: #ffc800;
+}
+
+.Pitrouille{
+	background-color: #ffc800;
+}
+
+.Métamorph{
+	background-color: #ffc800;
+}
+
+.Quartermac{
+	background-color: #ffc800;
+}
+
+.Excavarenne{
+	background-color: #ffc800;
+}
+
+.Créhelf{
+	background-color: #ffc800;
+}
+
+.Latias{
+	background-color: #ffc800;
+}
+
+.Berserkatt{
+	background-color: #ffc800;
+}
+
+.Némélios{
+	background-color: #ffc800;
+}
+
+.Psykokwak{
+	background-color: #ffc800;
+}
+
+.Lewsor{
+	background-color: #ffc800;
+}
+
+.Capumain{
+	background-color: #ffc800;
+}
+.Capumain{
 	background-color: #ffc800;
 }
