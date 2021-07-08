@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 33.29%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 34.57%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*313 Pokemon trouvé sur 940*/
+/*325 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1551,6 +1551,55 @@ td{
 .Capumain{
 	background-color: #ffc800;
 }
-.Capumain{
+
+.Tritonde{
+	background-color: #ffc800;
+}
+
+.Pachyradjah{
+	background-color: #ffc800;
+}
+
+.Négapi{
+	background-color: #ffc800;
+}
+
+.Machopeur{
+	background-color: #ffc800;
+}
+
+.Gloupti{
+	background-color: #ffc800;
+}
+
+.Desséliande{
+	background-color: #ffc800;
+}
+
+.Ptyranidur{
+	background-color: #ffc800;
+}
+
+.Melmetal{
+	background-color: #ffc800;
+}
+
+.Meltan{
+	background-color: #ffc800;
+}
+
+.Étourmi{
+	background-color: #ffc800;
+}
+
+.Trépassable{
+	background-color: #ffc800;
+}
+
+.Neitram{
+	background-color: #ffc800;
+}
+
+.Neitram{
 	background-color: #ffc800;
 }
