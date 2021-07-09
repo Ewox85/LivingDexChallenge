@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 34.57%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 35.10%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*325 Pokemon trouvé sur 940*/
+/*330 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1600,6 +1600,22 @@ td{
 	background-color: #ffc800;
 }
 
-.Neitram{
+.Tritosor-m{
+	background-color: #ffc800;
+}
+
+.Kadabra{
+	background-color: #ffc800;
+}
+
+.Créfollet{
+	background-color: #ffc800;
+}
+
+.Giratina{
+	background-color: #ffc800;
+}
+
+.Giratina{
 	background-color: #ffc800;
 }
