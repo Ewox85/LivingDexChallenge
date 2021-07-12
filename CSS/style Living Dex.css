@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 35.10%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 36.70%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*330 Pokemon trouvé sur 940*/
+/*345 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1616,6 +1616,66 @@ td{
 	background-color: #ffc800;
 }
 
-.Giratina{
+.Ptéra{
+	background-color: #ffc800;
+}
+
+.Scolocendre{
+	background-color: #ffc800;
+}
+
+.Laggron{
+	background-color: #ffc800;
+}
+
+.Évoli{
+	background-color: #ffc800;
+}
+
+.Minidraco{
+	background-color: #ffc800;
+}
+
+.Câblifère{
+	background-color: #ffc800;
+}
+
+.Kungfouine{
+	background-color: #ffc800;
+}
+
+.Spoink{
+	background-color: #ffc800;
+}
+
+.Chenipotte{
+	background-color: #ffc800;
+}
+
+.Galvagla{
+	background-color: #ffc800;
+}
+
+.Hélionceau{
+	background-color: #ffc800;
+}
+
+.Crapustule{
+	background-color: #ffc800;
+}
+
+.Apireine{
+	background-color: #ffc800;
+}
+
+.Brutalibré{
+	background-color: #ffc800;
+}
+
+.Téraclope{
+	background-color: #ffc800;
+}
+
+.Téraclope{
 	background-color: #ffc800;
 }
