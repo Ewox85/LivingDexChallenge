@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 36.70%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 37.65%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*345 Pokemon trouvé sur 940*/
+/*354 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1676,6 +1676,42 @@ td{
 	background-color: #ffc800;
 }
 
-.Téraclope{
+.Mimigal{
+	background-color: #ffc800;
+}
+
+.Plumeline-hula{
+	background-color: #ffc800;
+}
+
+.ZigzatonG{
+	background-color: #ffc800;
+}
+
+.GrotadmorvA{
+	background-color: #ffc800;
+}
+
+.Arakdo{
+	background-color: #ffc800;
+}
+
+.Astronelle{
+	background-color: #ffc800;
+}
+
+.Kokiyas{
+	background-color: #ffc800;
+}
+
+.Électhor{
+	background-color: #ffc800;
+}
+
+.Pierroteknik{
+	background-color: #ffc800;
+}
+
+.Pierroteknik{
 	background-color: #ffc800;
 }
