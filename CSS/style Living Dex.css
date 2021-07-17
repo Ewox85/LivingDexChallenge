@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 37.65%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 38.82%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*354 Pokemon trouvé sur 940*/
+/*365 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1712,6 +1712,54 @@ td{
 	background-color: #ffc800;
 }
 
-.Pierroteknik{
+.Créfadet{
+	background-color: #ffc800;
+}
+
+.Spectrum{
+	background-color: #ffc800;
+}
+
+.Gravalanch{
+	background-color: #ffc800;
+}
+
+.Rattatac{
+	background-color: #ffc800;
+}
+
+.Racaillou{
+	background-color: #ffc800;
+}
+
+.Roussil{
+	background-color: #ffc800;
+}
+
+.Exagide{
+	background-color: #ffc800;
+}
+
+.Pomdepik{
+	background-color: #ffc800;
+}
+
+.Mimitoss{
+	background-color: #ffc800;
+}
+
+.Loupio{
+	background-color: #ffc800;
+}
+
+.Abra{
+	background-color: #ffc800;
+}
+
+.Mouscoto{
+	background-color: #ffc800;
+}
+
+.Mouscoto{
 	background-color: #ffc800;
 }
