@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 38.82%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 40.63%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*371 Pokemon trouvé sur 940*/
+/*382 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1784,6 +1784,50 @@ td{
 	background-color: #ffc800;
 }
 
-.Flagadoss{
+.Tauros{
+	background-color: #ffc800;
+}
+
+.Moustillon{
+	background-color: #ffc800;
+}
+
+.Dinoclier{
+	background-color: #ffc800;
+}
+
+.Mentali{
+	background-color: #ffc800;
+}
+
+.Obalie{
+	background-color: #ffc800;
+}
+
+.Cresselia{
+	background-color: #ffc800;
+}
+
+.Chacripan{
+	background-color: #ffc800;
+}
+
+.Reshiram{
+	background-color: #ffc800;
+}
+
+.Skelénox{
+	background-color: #ffc800;
+}
+
+.Jungko{
+	background-color: #ffc800;
+}
+
+.Doduo{
+	background-color: #ffc800;
+}
+
+.Doduo{
 	background-color: #ffc800;
 }
