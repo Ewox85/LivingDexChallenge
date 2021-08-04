@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 41.80%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 44.78%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*382 Pokemon trouvé sur 940*/
+/*421 Pokemon trouvé sur 940*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1869,5 +1869,121 @@ td{
 }
 
 .Zigzaton{
+	background-color: #ffc800;
+}
+
+.Nidoran♀{
+	background-color: #ffc800;
+}
+
+.MiaoussG{
+	background-color: #ffc800;
+}
+
+.Bibichut{
+	background-color: #ffc800;
+}
+
+.Moyade-f{
+	background-color: #ffc800;
+}
+
+.Griknot{
+	background-color: #ffc800;
+}
+
+.Tiboudet{
+	background-color: #ffc800;
+}
+
+.Dedenne{
+	background-color: #ffc800;
+}
+
+.Balbuto{
+	background-color: #ffc800;
+}
+
+.Méditikka{
+	background-color: #ffc800;
+}
+
+.Statitik{
+	background-color: #ffc800;
+}
+
+.Élekable{
+	background-color: #ffc800;
+}
+
+.Mélofée{
+	background-color: #ffc800;
+}
+
+.Tournegrin{
+	background-color: #ffc800;
+}
+
+.Insolourdo{
+	background-color: #ffc800;
+}
+
+.Fulguris{
+	background-color: #ffc800;
+}
+
+.Dragmara{
+	background-color: #ffc800;
+}
+
+.Kaiminus{
+	background-color: #ffc800;
+}
+
+.Phyllali{
+	background-color: #ffc800;
+}
+
+.Artikodin{
+	background-color: #ffc800;
+}
+
+.Coudlangue{
+	background-color: #ffc800;
+}
+
+.Chrysapile{
+	background-color: #ffc800;
+}
+
+.Écayon{
+	background-color: #ffc800;
+}
+
+.Moufouette{
+	background-color: #ffc800;
+}
+
+.Lugulabre{
+	background-color: #ffc800;
+}
+
+.Steelix{
+	background-color: #ffc800;
+}
+
+.Malamandre{
+	background-color: #ffc800;
+}
+
+.Motismatonte{
+	background-color: #ffc800;
+}
+
+.Motismaventilo{
+	background-color: #ffc800;
+}
+
+.Motismaventilo{
 	background-color: #ffc800;
 }
