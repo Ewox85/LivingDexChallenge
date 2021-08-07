@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 44.78%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 45.39%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*421 Pokemon trouvé sur 940*/
+/*429 Pokemon trouvé sur 945*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -1984,6 +1984,38 @@ td{
 	background-color: #ffc800;
 }
 
-.Motismaventilo{
+.Nidoran♂{
+	background-color: #ffc800;
+}
+
+.Darumacho{
+	background-color: #ffc800;
+}
+
+.Chelours{
+	background-color: #ffc800;
+}
+
+.Deflaisan-f{
+	background-color: #ffc800;
+}
+
+.Vémini{
+	background-color: #ffc800;
+}
+
+.Ponchien{
+	background-color: #ffc800;
+}
+
+.Machoc{
+	background-color: #ffc800;
+}
+
+.Massko{
+	background-color: #ffc800;
+}
+
+.Massko{
 	background-color: #ffc800;
 }
