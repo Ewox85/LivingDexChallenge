@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 45.39%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 46.24%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*429 Pokemon trouvé sur 945*/
+/*437 Pokemon trouvé sur 945*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -2016,6 +2016,38 @@ td{
 	background-color: #ffc800;
 }
 
-.Massko{
+.Tokopiyon{
+	background-color: #ffc800;
+}
+
+.Rhinastoc{
+	background-color: #ffc800;
+}
+
+.Motisma{
+	background-color: #ffc800;
+}
+
+.Draïeul{
+	background-color: #ffc800;
+}
+
+.Viridium{
+	background-color: #ffc800;
+}
+
+.Kyogre{
+	background-color: #ffc800;
+}
+
+.Feurisson{
+	background-color: #ffc800;
+}
+
+.Motismafour{
+	background-color: #ffc800;
+}
+
+.Motismafour{
 	background-color: #ffc800;
 }
