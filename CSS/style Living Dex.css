@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 46.24%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 47.72%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*437 Pokemon trouvé sur 945*/
+/*451 Pokemon trouvé sur 945*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -2048,6 +2048,62 @@ td{
 	background-color: #ffc800;
 }
 
-.Motismafour{
+.Motismafrigo{
+	background-color: #ffc800;
+}
+
+.Grotichon{
+	background-color: #ffc800;
+}
+
+.Dialga{
+	background-color: #ffc800;
+}
+
+.Kaimorse{
+	background-color: #ffc800;
+}
+
+.Kaorine{
+	background-color: #ffc800;
+}
+
+.Okéoké{
+	background-color: #ffc800;
+}
+
+.Gardevoir{
+	background-color: #ffc800;
+}
+
+.Staross{
+	background-color: #ffc800;
+}
+
+.Natu{
+	background-color: #ffc800;
+}
+
+.Motismalavage{
+	background-color: #ffc800;
+}
+
+.Lugia{
+	background-color: #ffc800;
+}
+
+.Zoroark{
+	background-color: #ffc800;
+}
+
+.Phanpy{
+	background-color: #ffc800;
+}
+
+.Tokotoro{
+	background-color: #ffc800;
+}
+
+.Tokotoro{
 	background-color: #ffc800;
 }
