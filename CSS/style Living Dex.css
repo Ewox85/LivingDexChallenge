@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 47.72%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 48.46%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*451 Pokemon trouvé sur 945*/
+/*458 Pokemon trouvé sur 945*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -2104,6 +2104,34 @@ td{
 	background-color: #ffc800;
 }
 
-.Tokotoro{
+.Mewtwo{
+	background-color: #ffc800;
+}
+
+.Spinda{
+	background-color: #ffc800;
+}
+
+.Feunnec{
+	background-color: #ffc800;
+}
+
+.Limaspeed{
+	background-color: #ffc800;
+}
+
+.Onix{
+	background-color: #ffc800;
+}
+
+.Sovkipou{
+	background-color: #ffc800;
+}
+
+.Roitiflam{
+	background-color: #ffc800;
+}
+
+.Roitiflam{
 	background-color: #ffc800;
 }
