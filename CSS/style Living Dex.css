@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 48.46%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 49.36%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*458 Pokemon trouvé sur 945*/
+/*464 Pokemon trouvé sur 945*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -2132,6 +2132,30 @@ td{
 	background-color: #ffc800;
 }
 
-.Roitiflam{
+.Dimoclès{
+	background-color: #ffc800;
+}
+
+.Terrakium{
+	background-color: #ffc800;
+}
+
+.Gigalithe{
+	background-color: #ffc800;
+}
+
+.Mammochon{
+	background-color: #ffc800;
+}
+
+.Rhinolove{
+	background-color: #ffc800;
+}
+
+.Gallame{
+	background-color: #ffc800;
+}
+
+.Gallame{
 	background-color: #ffc800;
 }
