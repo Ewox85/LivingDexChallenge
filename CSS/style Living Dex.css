@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 49.36%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 49.73%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*464 Pokemon trouvé sur 945*/
+/*470 Pokemon trouvé sur 945*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -2156,6 +2156,30 @@ td{
 	background-color: #ffc800;
 }
 
-.Gallame{
+.Bébécaille{
+	background-color: #ffc800;
+}
+
+.CorayonG{
+	background-color: #ffc800;
+}
+
+.Palkia{
+	background-color: #ffc800;
+}
+
+.Nirondelle{
+	background-color: #ffc800;
+}
+
+.Fulgudog{
+	background-color: #ffc800;
+}
+
+.Otaquin{
+	background-color: #ffc800;
+}
+
+.Otaquin{
 	background-color: #ffc800;
 }
