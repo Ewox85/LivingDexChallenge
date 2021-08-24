@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 49.73%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 50.47%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*470 Pokemon trouvé sur 945*/
+/*477 Pokemon trouvé sur 945*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -2180,6 +2180,34 @@ td{
 	background-color: #ffc800;
 }
 
-.Otaquin{
+.Akwakwak{
+	background-color: #ffc800;
+}
+
+.Colhomard{
+	background-color: #ffc800;
+}
+
+.Korillon{
+	background-color: #ffc800;
+}
+
+.Ratentif{
+	background-color: #ffc800;
+}
+
+.Mandrillon{
+	background-color: #ffc800;
+}
+
+.Polthégeist{
+	background-color: #ffc800;
+}
+
+.Kyurem{
+	background-color: #ffc800;
+}
+
+.Kyurem{
 	background-color: #ffc800;
 }
