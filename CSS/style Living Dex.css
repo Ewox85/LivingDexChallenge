@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 51.32%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 52.16%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*485 Pokemon trouvé sur 945*/
+/*493 Pokemon trouvé sur 945*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -2240,6 +2240,38 @@ td{
 	background-color: #ffc800;
 }
 
-.Leuphorie{
+.Lilia{
+	background-color: #ffc800;
+}
+
+.Galegon{
+	background-color: #ffc800;
+}
+
+.Aquali{
+	background-color: #ffc800;
+}
+
+.Galekid{
+	background-color: #ffc800;
+}
+
+.Furaiglon{
+	background-color: #ffc800;
+}
+
+.Maraiste{
+	background-color: #ffc800;
+}
+
+.Piclairon{
+	background-color: #ffc800;
+}
+
+.Tarinor{
+	background-color: #ffc800;
+}
+
+.Tarinor{
 	background-color: #ffc800;
 }
