@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 /*------------------------------------*/
-@import "fe.css" handheld;
 
 html{
 	margin: auto;
@@ -274,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 52.16%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 53.12%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -297,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*493 Pokemon trouvé sur 945*/
+/*502 Pokemon trouvé sur 945*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -2273,6 +2272,46 @@ td{
 	background-color: #ffc800;
 }
 
-.Tarinor{
+.Poussifeu{
+	background-color: #ffc800;
+}
+
+.Bamboiselle{
+	background-color: #ffc800;
+}
+
+.Crustabri{
+	background-color: #ffc800;
+}
+
+.Ékaïser{
+	background-color: #ffc800;
+}
+
+.Larméléon{
+	background-color: #ffc800;
+}
+
+.Voltoutou{
+	background-color: #ffc800;
+}
+
+.Ouistempo{
+	background-color: #ffc800;
+}
+
+.Donphan{
+	background-color: #ffc800;
+}
+
+.Vorastérie{
+	background-color: #ffc800;
+}
+
+.Séléroc{
+	background-color: #ffc800;
+}
+
+.Séléroc{
 	background-color: #ffc800;
 }
