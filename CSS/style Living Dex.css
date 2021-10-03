@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 53.12%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 54.07%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*502 Pokemon trouvé sur 945*/
+/*511 Pokemon trouvé sur 945*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -2312,6 +2312,42 @@ td{
 	background-color: #ffc800;
 }
 
-.Séléroc{
+.Pachirisu{
+	background-color: #ffc800;
+}
+
+.Registeel{
+	background-color: #ffc800;
+}
+
+.Archéduc{
+	background-color: #ffc800;
+}
+
+.Tiplouf{
+	background-color: #ffc800;
+}
+
+.Regice{
+	background-color: #ffc800;
+}
+
+.Solaroc{
+	background-color: #ffc800;
+}
+
+.Lougaroc-crepusculaire{
+	background-color: #ffc800;
+}
+
+.Regigigas{
+	background-color: #ffc800;
+}
+
+.Tygnon{
+	background-color: #ffc800;
+}
+
+.Tygnon{
 	background-color: #ffc800;
 }
