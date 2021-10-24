@@ -273,7 +273,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 54.07%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 56.29%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -296,7 +296,7 @@ td{
 
 
 /*------------------------------------*/
-/*511 Pokemon trouvé sur 945*/
+/*532 Pokemon trouvé sur 945*/
 /*------------------------------------*/
 /*------------------------------------*/
 /*Changer la couleur du fond du pokemon*/
@@ -2348,6 +2348,90 @@ td{
 	background-color: #ffc800;
 }
 
-.Tygnon{
+.Galifeu{
+	background-color: #ffc800;
+}
+
+.Grodrive{
+	background-color: #ffc800;
+}
+
+.Spododo{
+	background-color: #ffc800;
+}
+
+.Cornèbre{
+	background-color: #ffc800;
+}
+
+.Kangourex{
+	background-color: #ffc800;
+}
+
+.Élektek{
+	background-color: #ffc800;
+}
+
+.Frison{
+	background-color: #ffc800;
+}
+
+.Reptincel{
+	background-color: #ffc800;
+}
+
+.Grelaçon{
+	background-color: #ffc800;
+}
+
+.Monthracite{
+	background-color: #ffc800;
+}
+
+.Roserade{
+	background-color: #ffc800;
+}
+
+.Spiritomb{
+	background-color: #ffc800;
+}
+
+.Golemastoc{
+	background-color: #ffc800;
+}
+
+.Scorvol{
+	background-color: #ffc800;
+}
+
+.Noctunoir{
+	background-color: #ffc800;
+}
+
+.Scorplane{
+	background-color: #ffc800;
+}
+
+.Goélise{
+	background-color: #ffc800;
+}
+
+.PersianA{
+	background-color: #ffc800;
+}
+
+.Chimpenfeu{
+	background-color: #ffc800;
+}
+
+.Boustiflor{
+	background-color: #ffc800;
+}
+
+.Muciole{
+	background-color: #ffc800;
+}
+
+.Muciole{
 	background-color: #ffc800;
 }
