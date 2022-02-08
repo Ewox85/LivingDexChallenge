@@ -47,10 +47,10 @@ table {
 	border-spacing: 0;
 }
 /*------------------------------------*/
-@import "fe.css" handheld;
 
 html{
 	margin: auto;
+	height: auto;
 	background-color: #333333;
 	font-family: Segoe UI Black;
 	box-shadow: inset 10px 10px 50px #2c2c2c, 
@@ -204,6 +204,7 @@ table{
 	font-weight: bold;
 	border-collapse : separate;
  	border-spacing : 10px;
+
 }
 
 th{
@@ -215,6 +216,7 @@ th{
 	border-top-left-radius: 20px;
 	background-color: #333333;
 	border-width: 3px;
+
 }
 
 td{
@@ -226,10 +228,81 @@ td{
 	border-top-left-radius: 20px;
 	background-color: aliceblue;
 	border-width: 3px;
-	width: 20%;
 }
 
 .invisible{
 	border-width: 0px;
 	background-color: #00675b;
 }
+
+.container .bar:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.bar {
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	margin-left: 25%;
+	margin-right: 25%;
+    background: #444;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 10px #2c2c2c, 
+    inset -5px -5px 10px #5c5c5c;
+}
+
+.bar-stat{
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-shadow: 0 0 5px #000;
+}
+
+#html{
+    background: #d65c3d;
+    animation: htmlSlide 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+#css{
+    background: #3755cc;
+    animation: cssSlide 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+#js{
+    background: #d4a040;
+    animation: jsSlide 1.5s  cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
+@keyframes htmlSlide{
+    0%{width: 0%;}
+    100%{width: 60.11%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+}
+
+@keyframes cssSlide{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+@keyframes jsSlide{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------------------*/
+/*Changer la couleur du fond du pokemon*/
+/*------------------------------------*/
+
+.trouve{
+	background-color: #ffc800
+}
+
+/*------------------------------------*/
+/*654 Pokemon trouvé sur 1 088*/
+/*------------------------------------*/
