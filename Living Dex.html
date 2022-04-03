@@ -6,6 +6,16 @@
         <link rel="stylesheet" type="text/css" href="CSS/style Living Dex.css">
         <link rel="shortcut icon" href="Images/logo en haut à gauche.png" type="image/x-icon" /> 
     </head>
+    <script>
+        $(document).ready(function(){
+          $("#myInput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#myTable tr").filter(function() {
+              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+          });
+        });
+    </script>
     <body>
         <h1>
             Shiny Card
@@ -40,24 +50,26 @@
                 <h3>Living Dex Complété à :</h3><br/>
                     <div class="bar">
                         <div class="bar-stat" id="html">
-                            <span class="bar-text">60,93% 663/1 088</span>
+                            <span class="bar-text">62,34% 678/1088</span>
                         </div>
                     </div>
             </div><br/><br/>
-            <p>
+            <p> 
+                <input class="form-control" id="myInput" type="text" placeholder="Search..">
                 <h3>Living Dex 1g :</h3>
                 <center><table align=center valign="middle">
-                <tr>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/bulbizarre.png" WIDTH=70 border="0"><br/><B>Bulbizarre #001</B></a></th>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/herbizarre.png" WIDTH=90 border="0"><br/><B>Herbizarre #002</B></a></th>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/florizarre.png" WIDTH=90 border="0"><br/><B>Florizarre #003</B></a></th>
-                    <th class=Salamèche style="width:150px; height:100px;"><img src="Images/shiny/salameche.png" WIDTH=80 border="0"><br/><B>Salamèche #004</B></a></th>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/reptincel.png" WIDTH=80 border="0"><br/><B>Reptincel #005</B></a></th>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/dracaufeu.png" WIDTH=95 border="0"><br/><B>Dracaufeu #006</B></a></th>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/carapuce.png" WIDTH=80 border="0"><br/><B>Carapuce #007</B></a></th>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/carabaffe.png" WIDTH=80 border="0"><br/><B>Carabaffe #008</B></a></th>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/tortank.png" WIDTH=90 border="0"><br/><B>Tortank #009</B></a></th>
-                </tr>
+                    <tbody id="myTable">
+                        <tr>
+                            <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/bulbizarre.png" WIDTH=70 border="0"><br/><B>Bulbizarre #001</B></a></th>
+                            <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/herbizarre.png" WIDTH=90 border="0"><br/><B>Herbizarre #002</B></a></th>
+                            <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/florizarre.png" WIDTH=90 border="0"><br/><B>Florizarre #003</B></a></th>
+                            <th class=Salamèche style="width:150px; height:100px;"><img src="Images/shiny/salameche.png" WIDTH=80 border="0"><br/><B>Salamèche #004</B></a></th>
+                            <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/reptincel.png" WIDTH=80 border="0"><br/><B>Reptincel #005</B></a></th>
+                            <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/dracaufeu.png" WIDTH=95 border="0"><br/><B>Dracaufeu #006</B></a></th>
+                            <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/carapuce.png" WIDTH=80 border="0"><br/><B>Carapuce #007</B></a></th>
+                            <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/carabaffe.png" WIDTH=80 border="0"><br/><B>Carabaffe #008</B></a></th>
+                            <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/tortank.png" WIDTH=90 border="0"><br/><B>Tortank #009</B></a></th>
+                        </tr>
                 <tr>
                     <td>CornetBoy</td>
                     <td>Pokemaz</td>
@@ -138,7 +150,7 @@
                 <tr>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/goupix.png" WIDTH=70 border="0"><br/><B>Goupix #037</B></a></th>
                     <th class=Feunard style="width:150px; height:100px;"><img src="Images/shiny/feunard.png" WIDTH=90 border="0"><br/><B>Feunard #038</B></a></th>
-                    <th class=Rondoudou style="width:150px; height:100px;"><img src="Images/shiny/rondoudou.png" WIDTH=90 border="0"><br/><B>Rondoudou #039</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/rondoudou.png" WIDTH=90 border="0"><br/><B>Rondoudou #039</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/grodoudou.png" WIDTH=80 border="0"><br/><B>Grodoudou #040</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/nosferapti.png" WIDTH=80 border="0"><br/><B>Nosferapti #041</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/nosferalto.png" WIDTH=95 border="0"><br/><B>Nosferalto #042</B></a></th>
@@ -149,7 +161,7 @@
                 <tr>
                     <td>Ewox_</td>
                     <td>???</td>
-                    <td>???</td>
+                    <td>Ewox_</td>
                     <td>TheGolden</td>
                     <td>Nah.</td>
                     <td>Nah.</td>
@@ -246,23 +258,23 @@
                     <td>Lilishi</td>
                 </tr>
                             <tr>
-                    <th class=Magnéton style="width:150px; height:100px;"><img src="Images/shiny/magneton.png" WIDTH=70 border="0"><br/><B>Magnéton #082</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/magneton.png" WIDTH=70 border="0"><br/><B>Magnéton #082</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/canarticho.png" WIDTH=90 border="0"><br/><B>Canarticho #083</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/doduo.png" WIDTH=90 border="0"><br/><B>Doduo #084</B></a></th>
                     <th class=Dodrio style="width:150px; height:100px;"><img src="Images/shiny/dodrio.png" WIDTH=80 border="0"><br/><B>Dodrio #085</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/otaria.png" WIDTH=80 border="0"><br/><B>Otaria #086</B></a></th>
-                    <th class=Lamantine style="width:150px; height:100px;"><img src="Images/shiny/lamantine.png" WIDTH=95 border="0"><br/><B>Lamantine #087</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/lamantine.png" WIDTH=95 border="0"><br/><B>Lamantine #087</B></a></th>
                     <th class=Tadmorv style="width:150px; height:100px;"><img src="Images/shiny/tadmorv.png" WIDTH=100 border="0"><br/><B>Tadmorv #088</B></a></th>
                     <th class=Grotadmorv style="width:150px; height:100px;"><img src="Images/shiny/grotadmorv.png" WIDTH=100 border="0"><br/><B>Grotadmorv #089</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/kokiyas.png" WIDTH=90 border="0"><br/><B>Kokiyas #090</B></a></th>
                 </tr>
                 <tr>
-                    <td>???</td>
+                    <td>CornetBoy</td>
                     <td>FT_NoNo</td>
                     <td>Ewox_</td>
                     <td>???</td>
                     <td>Spectra</td>
-                    <td>???</td>
+                    <td>CornetBoy</td>
                     <td>???</td>
                     <td>???</td>
                     <td>Yuki</td>
@@ -1269,7 +1281,6 @@
                     <td>Infinity_Light</td>
                 </tr>
                 <tr>
-                    <th class=invisible></th>
                     <th class=Momartik style="width:150px; height:100px;"><img src="Images/shiny/momartik.png" WIDTH=80 border="0"><br/><B>Momartik #478</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/motisma.png" WIDTH=80 border="0"><br/><B>Motisma #479</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/motisma-four.png" WIDTH=80 border="0"><br/><B>Motisma Chaleur #479</B></a></th>
@@ -1277,10 +1288,11 @@
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/motisma-lavage.png" WIDTH=80 border="0"><br/><B>Motisma Lavage #479</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/motisma-tonte.png" WIDTH=80 border="0"><br/><B>Motisma Tonte #479</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/motisma-ventilo.png" WIDTH=80 border="0"><br/><B>Motisma Hélice #479</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/crehelf.png" WIDTH=80 border="0"><br/><B>Créhelf #480</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/crefollet.png" WIDTH=80 border="0"><br/><B>Créfollet #481</B></a></th>
                     
                 </tr>
                 <tr>
-                    <td class=invisible></td>
                     <td>???</td>
                     <td>Infinity_Light</td>
                     <td>Infinity_Light</td>
@@ -1288,21 +1300,23 @@
                     <td>Satoshi</td>
                     <td>Infinity_Light</td>
                     <td>Infinity_Light</td>
+                    <td>Infinity_light</td>
+                    <td>Infinity_Light</td>
                 </tr>
                 <tr>
                     <th class=invisible></th>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/crehelf.png" WIDTH=80 border="0"><br/><B>Créhelf #480</B></a></th>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/crefollet.png" WIDTH=80 border="0"><br/><B>Créfollet #481</B></a></th>
+                    <th class=invisible></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/crefadet.png" WIDTH=80 border="0"><br/><B>Créfadet #482</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/dialga.png" WIDTH=80 border="0"><br/><B>Dialga #483</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/palkia.png" WIDTH=80 border="0"><br/><B>Palkia #484</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/heatran.png" WIDTH=80 border="0"><br/><B>Heatran #485</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/regigigas.png" WIDTH=80 border="0"><br/><B>Regigigas #486</B></a></th>
+                    
+                    
                 </tr>
                 <tr>
-                    <td class=invisible></td>
-                    <td>Infinity_light</td>
-                    <td>Infinity_Light</td>
+                    <td class=invisible></td> 
+                    <td class=invisible></td>     
                     <td>Infinity_light</td>
                     <td>Ewox_</td>
                     <td>CornetBoy</td>
@@ -1324,6 +1338,22 @@
                     <td>Ewox_</td>
                     <td>CornetBoy</td>
                     <td>Yuki</td>
+                </tr>
+                <tr>
+                    <th class=invisible></th>
+                    <th class=invisible></th>
+                    <th class=invisible></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/darkrai.png" WIDTH=80 border="0"><br/><B>Darkrai #491</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/shaymin.png" WIDTH=80 border="0"><br/><B>Shaymin #492</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/arceus.png" WIDTH=80 border="0"><br/><B>Arceus #493</B></a></th>
+                </tr>
+                <tr>
+                    <td class=invisible></td>
+                    <td class=invisible></td>
+                    <td class=invisible></td>
+                    <td>CornetBoy</td>
+                    <td>Infinity_Light</td>
+                    <td>Damien</td>
                 </tr>
         </center></table><br/><br/><br/>
                                                                 <h3>Living Dex 5g :</h3>
@@ -1467,7 +1497,7 @@
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/bargantua-r.png" WIDTH=80 border="0"><br/><B>Bargantua Rouge #550</B></a></th>
                     <th class=Mascaiman style="width:150px; height:100px;"><img src="Images/shiny/mascaiman.png" WIDTH=80 border="0"><br/><B>Mascaiman #551</B></a></th>
                     <th class=Escroco style="width:150px; height:100px;"><img src="Images/shiny/escroco.png" WIDTH=80 border="0"><br/><B>Escroco #552</B></a></th>
-                    <th class=Crocorible style="width:150px; height:100px;"><img src="Images/shiny/crocorible.png" WIDTH=80 border="0"><br/><B>Crocorible #553</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/crocorible.png" WIDTH=80 border="0"><br/><B>Crocorible #553</B></a></th>
                     <th class=Darumarond style="width:150px; height:100px;"><img src="Images/shiny/darumarond.png" WIDTH=80 border="0"><br/><B>Darumarond #554</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/darumacho.png" WIDTH=80 border="0"><br/><B>Darumacho #555</B></a></th>
                 </tr>
@@ -1486,7 +1516,7 @@
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/maracachi.png" WIDTH=80 border="0"><br/><B>Maracachi #556</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/crabicoque.png" WIDTH=80 border="0"><br/><B>Crabicoque #557</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/crabaraque.png" WIDTH=80 border="0"><br/><B>Crabaraque #558</B></a></th>
-                    <th class=Baggiguane style="width:150px; height:100px;"><img src="Images/shiny/baggiguane.png" WIDTH=80 border="0"><br/><B>Baggiguane #559</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/baggiguane.png" WIDTH=80 border="0"><br/><B>Baggiguane #559</B></a></th>
                     <th class=Baggaid style="width:150px; height:100px;"><img src="Images/shiny/baggaid.png" WIDTH=80 border="0"><br/><B>Baggaid #560</B></a></th>
                     <th class=Cryptero style="width:150px; height:100px;"><img src="Images/shiny/cryptero.png" WIDTH=80 border="0"><br/><B>Cryptero #561</B></a></th>
                     <th class=Tutafeh style="width:150px; height:100px;"><img src="Images/shiny/tutafeh.png" WIDTH=80 border="0"><br/><B>Tutafeh #562</B></a></th>
@@ -1497,7 +1527,7 @@
                     <td>Lilishi</td>
                     <td>matheo</td>
                     <td>Nah.</td>
-                    <td>???</td>
+                    <td>Ewox_</td>
                     <td>???</td>
                     <td>???</td>
                     <td>???</td>
@@ -1578,7 +1608,7 @@
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/mamanbo.png" WIDTH=80 border="0"><br/><B>Mamanbo #594</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/statitik.png" WIDTH=80 border="0"><br/><B>Statitik #595</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/mygavolt.png" WIDTH=80 border="0"><br/><B>Mygavolt #596</B></a></th>
-                    <th class=Grindur style="width:150px; height:100px;"><img src="Images/shiny/grindur.png" WIDTH=80 border="0"><br/><B>Grindur #597</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/grindur.png" WIDTH=80 border="0"><br/><B>Grindur #597</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/noacier.png" WIDTH=80 border="0"><br/><B>Noacier #598</B></a></th>
                 </tr>
                 <tr>
@@ -1589,7 +1619,7 @@
                     <td>CornetBoy</td>
                     <td>Yuki</td>
                     <td>Infinity_Light</td>
-                    <td>???</td>
+                    <td>Ewox_</td>
                     <td>Yuki</td>
                 </tr>
                 <tr>
@@ -1620,7 +1650,7 @@
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/coupenotte.png" WIDTH=80 border="0"><br/><B>Coupenotte #610</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/incisache.png" WIDTH=80 border="0"><br/><B>Incisache #611</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/tranchodon.png" WIDTH=80 border="0"><br/><B>Tranchodon #612</B></a></th>
-                    <th class=Polarhume style="width:150px; height:100px;"><img src="Images/shiny/polarhume.png" WIDTH=80 border="0"><br/><B>Polarhume #613</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/polarhume.png" WIDTH=80 border="0"><br/><B>Polarhume #613</B></a></th>
                     <th class=Polagriffe style="width:150px; height:100px;"><img src="Images/shiny/polagriffe.png" WIDTH=80 border="0"><br/><B>Polagriffe #614</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/hexagel.png" WIDTH=80 border="0"><br/><B>Hexagel #615</B></a></th>
                     <th class=Escargaume style="width:150px; height:100px;"><img src="Images/shiny/escargaume.png" WIDTH=80 border="0"><br/><B>Escargaume #616</B></a></th>
@@ -1631,7 +1661,7 @@
                     <td>Ewox_</td>
                     <td>Lilishi</td>
                     <td>Infinity_light</td>
-                    <td>???</td>
+                    <td>CornetBoy</td>
                     <td>???</td>
                     <td>Infinity_Light</td>
                     <td>???</td>
@@ -1812,9 +1842,9 @@
                 <tr>
                     <th class=Cupcanaille style="width:150px; height:100px;"><img src="Images/shiny/cupcanaille.png" WIDTH=80 border="0"><br/><B>Cupcanaille #685</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/sepiatop.png" WIDTH=80 border="0"><br/><B>Sepiatop #686</B></a></th>
-                    <th class=Sepiatroce style="width:150px; height:100px;"><img src="Images/shiny/sepiatroce.png" WIDTH=80 border="0"><br/><B>Sepiatroce #687</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/sepiatroce.png" WIDTH=80 border="0"><br/><B>Sepiatroce #687</B></a></th>
                     <th class=Opermine style="width:150px; height:100px;"><img src="Images/shiny/opermine.png" WIDTH=80 border="0"><br/><B>Opermine #688</B></a></th>
-                    <th class=Golgopathe style="width:150px; height:100px;"><img src="Images/shiny/golgopathe.png" WIDTH=80 border="0"><br/><B>Golgopathe #689</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/golgopathe.png" WIDTH=80 border="0"><br/><B>Golgopathe #689</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/venalgue.png" WIDTH=80 border="0"><br/><B>Venalgue #690</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/kravarech.png" WIDTH=80 border="0"><br/><B>Kravarech #691</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/flingouste.png" WIDTH=80 border="0"><br/><B>Flingouste #692</B></a></th>
@@ -1823,9 +1853,9 @@
                 <tr>
                     <td>???</td>
                     <td>Lilishi</td>
+                    <td>CornetBoy</td>
                     <td>???</td>
-                    <td>???</td>
-                    <td>???</td>
+                    <td>CornetBoy</td>
                     <td>Mateo</td>
                     <td>Mateo</td>
                     <td>50 Rupees</td>
@@ -2077,7 +2107,7 @@
                 <tr>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/solgaleo.png" WIDTH=80 border="0"><br/><B>Solgaleo #791</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/lunala.png" WIDTH=80 border="0"><br/><B>Lunala #792</B></a></th>
-                    <th class=Zéroïd style="width:150px; height:100px;"><img src="Images/shiny/zeroid.png" WIDTH=80 border="0"><br/><B>Zéroïd #793</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/zeroid.png" WIDTH=80 border="0"><br/><B>Zéroïd #793</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/mouscoto.png" WIDTH=80 border="0"><br/><B>Mouscoto #794</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/cancrelove.png" WIDTH=80 border="0"><br/><B>Cancrelove #795</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/cablifere.png" WIDTH=80 border="0"><br/><B>Câblifère #796</B></a></th>
@@ -2233,7 +2263,7 @@
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/bibichut.png" WIDTH=80 border="0"><br/><B>Bibichut #856</B></a></th>
                     <th class=Chapotus style="width:150px; height:100px;"><img src="Images/shiny/chapotus.png" WIDTH=80 border="0"><br/><B>Chapotus #857</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/sorcilence.png" WIDTH=80 border="0"><br/><B>Sorcilence #858</B></a></th>
-                    <th class=Grimalin style="width:150px; height:100px;"><img src="Images/shiny/grimalin.png" WIDTH=80 border="0"><br/><B>Grimalin #859</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/grimalin.png" WIDTH=80 border="0"><br/><B>Grimalin #859</B></a></th>
                     <th class=Fourbelin style="width:150px; height:100px;"><img src="Images/shiny/fourbelin.png" WIDTH=80 border="0"><br/><B>Fourbelin #860</B></a></th>
                     <th class=Angoliath style="width:150px; height:100px;"><img src="Images/shiny/angoliath.png" WIDTH=80 border="0"><br/><B>Angoliath #861</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/ixon.png" WIDTH=80 border="0"><br/><B>Ixon #862</B></a></th>
@@ -2244,7 +2274,7 @@
                     <td>Lilishi</td>
                     <td>???</td>
                     <td>Yuki</td>
-                    <td>???</td>
+                    <td>Ewox_</td>
                     <td>???</td>
                     <td>???</td>
                     <td>Lilishi</td>
@@ -2424,22 +2454,22 @@
             <tr>
                 <th class=trouve style="width:150px; height:100px;"><img src="Images/non-shiny/caninos-hisui.png" WIDTH=80 border="0"><br/><B>Caninos.H #058</B></a></th>
                 <th class=trouve style="width:150px; height:100px;"><img src="Images/non-shiny/arcanin-hisui.png" WIDTH=80 border="0"><br/><B>Arcanin.H #059</B></a></th>
-                <th class=clamiralH style="width:150px; height:100px;"><img src="Images/non-shiny/clamiral-hisui.png" WIDTH=80 border="0"><br/><B>Clamiral.H #503</B></a></th>
-                <th class=archéducH style="width:150px; height:100px;"><img src="Images/non-shiny/archéduc-hisui.png" WIDTH=80 border="0"><br/><B>Archéduc.H #724</B></a></th>
-                <th class=typhlosionH style="width:150px; height:100px;"><img src="Images/non-shiny/typhlosion-hisui.png" WIDTH=80 border="0"><br/><B>Typhlosion.H #157	</B></a></th>
+                <th class=trouve style="width:150px; height:100px;"><img src="Images/non-shiny/clamiral-hisui.png" WIDTH=80 border="0"><br/><B>Clamiral.H #503</B></a></th>
+                <th class=trouve style="width:150px; height:100px;"><img src="Images/non-shiny/archéduc-hisui.png" WIDTH=80 border="0"><br/><B>Archéduc.H #724</B></a></th>
+                <th class=trouve style="width:150px; height:100px;"><img src="Images/non-shiny/typhlosion-hisui.png" WIDTH=80 border="0"><br/><B>Typhlosion.H #157	</B></a></th>
                 <th class=trouve style="width:150px; height:100px;"><img src="Images/non-shiny/colimucus-hisui.png" WIDTH=80 border="0"><br/><B>Colimucus.H #705</B></a></th>
-                <th class=muplodocusH style="width:150px; height:100px;"><img src="Images/non-shiny/muplodocus-hisui.png" WIDTH=80 border="0"><br/><B>Muplodocus.H #706</B></a></th>
+                <th class=trouve style="width:150px; height:100px;"><img src="Images/non-shiny/muplodocus-hisui.png" WIDTH=80 border="0"><br/><B>Muplodocus.H #706</B></a></th>
                 <th class=trouve style="width:150px; height:100px;"><img src="Images/non-shiny/voltorbe-hisui.png" WIDTH=80 border="0"><br/><B>Voltorbe.H #100</B></a></th>
                 <th class=trouve style="width:150px; height:100px;"><img src="Images/non-shiny/electrode-hisui.png" WIDTH=80 border="0"><br/><B>Electrode.H #101</B></a></th>  
             </tr>
             <tr>
                 <td>CornetBoy</td>
                 <td>CorentBoy</td>
-                <td>???</td>
-                <td>???</td>
-                <td>???</td>
+                <td>Ewox_</td>
                 <td>Yuki</td>
-                <td>???</td>
+                <td>Yuki</td>
+                <td>Yuki</td>
+                <td>Spectra</td>
                 <td>CornetBoy</td>
                 <td>Infinity_Light</td>
             </tr>
@@ -2503,13 +2533,13 @@
                 <tr>
                     <th class=Jirachi style="width:150px; height:100px;"><img src="Images/shiny/jirachi.png" WIDTH=80 border="0"><br/><B>Jirachi #385</B></a></th>
                     <th class=Manaphy style="width:150px; height:100px;"><img src="Images/shiny/manaphy.png" WIDTH=80 border="0"><br/><B>Manaphy #490</B></a></th>
-                    <th class=Darkrai style="width:150px; height:100px;"><img src="Images/shiny/darkrai.png" WIDTH=80 border="0"><br/><B>Darkrai #491</B></a></th>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/shaymin.png" WIDTH=80 border="0"><br/><B>Shaymin #492</B></a></th>
-                    <th class=Arceus style="width:150px; height:100px;"><img src="Images/shiny/arceus.png" WIDTH=80 border="0"><br/><B>Arceus #493</B></a></th>
                     <th class=Victini style="width:150px; height:100px;"><img src="Images/shiny/victini.png" WIDTH=80 border="0"><br/><B>Victini #494</B></a></th>
-                    <th class=Keldeo style="width:150px; height:100px;"><img src="Images/shiny/keldeo.png" WIDTH=80 border="0"><br/><B>Keldeo #647</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/keldeo.png" WIDTH=80 border="0"><br/><B>Keldeo #647</B></a></th>
                     <th class=Meloetta style="width:150px; height:100px;"><img src="Images/shiny/meloetta.png" WIDTH=80 border="0"><br/><B>Meloetta #648</B></a></th>
                     <th class=Genesect style="width:150px; height:100px;"><img src="Images/shiny/genesect.png" WIDTH=80 border="0"><br/><B>Genesect #649</B></a></th>
+                   <th class=Diancie style="width:150px; height:100px;"><img src="Images/shiny/diancie.png" WIDTH=80 border="0"><br/><B>Diancie #719</B></a></th>
+                    <th class=Hoopa style="width:150px; height:100px;"><img src="Images/shiny/hoopa.png" WIDTH=80 border="0"><br/><B>Hoopa #720</B></a></th>
+                    <th class=Volcanion style="width:150px; height:100px;"><img src="Images/shiny/volcanion.png" WIDTH=80 border="0"><br/><B>Volcanion #721</B></a></th>
                 </tr>
                 <tr>
                     <td>???</td>
@@ -2524,37 +2554,21 @@
                 </tr>
                 <tr>
                     <th class=invisible></th>
-                    <th class=Diancie style="width:150px; height:100px;"><img src="Images/shiny/diancie.png" WIDTH=80 border="0"><br/><B>Diancie #719</B></a></th>
-                    <th class=Hoopa style="width:150px; height:100px;"><img src="Images/shiny/hoopa.png" WIDTH=80 border="0"><br/><B>Hoopa #720</B></a></th>
-                    <th class=Volcanion style="width:150px; height:100px;"><img src="Images/shiny/volcanion.png" WIDTH=80 border="0"><br/><B>Volcanion #721</B></a></th>
+
                     <th class=Cosmog style="width:150px; height:100px;"><img src="Images/shiny/cosmog.png" WIDTH=80 border="0"><br/><B>Cosmog #789</B></a></th>
                     <th class=Cosmovum style="width:150px; height:100px;"><img src="Images/shiny/cosmovum.png" WIDTH=80 border="0"><br/><B>Cosmovum #790</B></a></th>
                     <th class=Magearna style="width:150px; height:100px;"><img src="Images/shiny/magearna.png" WIDTH=80 border="0"><br/><B>Magearna #801</B></a></th>
                     <th class=Marshadow style="width:150px; height:100px;"><img src="Images/shiny/marshadow.png" WIDTH=80 border="0"><br/><B>Marshadow #802</B></a></th>
-                    
-                </tr>
-                <tr>
-                    <td class=invisible></td>
-                    <td>???</td>
-                    <td>???</td>
-                    <td>???</td>
-                    <td>???</td>
-                    <td>???</td>
-                    <td>???</td>
-                    <td>???</td>
-                </tr>
-                <tr>
-                    <th class=invisible></th>
-                    <th class=invisible></th>
-                    <th class=invisible></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/zeraora.png" WIDTH=80 border="0"><br/><B>Zeraora #807</B></a></th>
                     <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/meltan.png" WIDTH=80 border="0"><br/><B>Meltan #808</B></a></th>
-                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/melmetal.png" WIDTH=80 border="0"><br/><B>Melmetal #809</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/melmetal.png" WIDTH=80 border="0"><br/><B>Melmetal #809</B></a></th>                    
                 </tr>
                 <tr>
                     <td class=invisible></td>
-                    <td class=invisible></td>
-                    <td class=invisible></td>
+                    <td>???</td>
+                    <td>???</td>
+                    <td>???</td>
+                    <td>???</td>
                     <td>Gaven</td>
                     <td>Yuki</td>
                     <td>CornetBoy</td>
