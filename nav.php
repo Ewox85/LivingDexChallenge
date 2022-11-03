@@ -1,7 +1,7 @@
 <nav class="wrapper">
     <ul>
         <li>
-            <a href="index.php" title="Acceuil">Acceuil</a>
+            <a href="index.html" title="Acceuil">Acceuil</a>
         </li>
         <li>
             <a>Shiny Community's Challenge</a>
