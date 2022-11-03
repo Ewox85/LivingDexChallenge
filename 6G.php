@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Living Dex</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style Living Dex.css">
+        <link rel="shortcut icon" href="Images/logo en haut à gauche.png" type="image/x-icon" /> 
+    </head>
+    <script>
+        $(document).ready(function(){
+          $("#myInput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#myTable tr").filter(function() {
+              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+          });
+        });
+    </script>
+    <body>
+        <h1>
+            Shiny Card
+        </h1><br/>
+        <header>
+            <?php
+            include('nav.php');
+            ?>
+        </header>
+        <main>
+            <?php
+            include('Bar.php');
+            include('navGénération.php');
+            ?>
+                <h3>Living Dex 6g :</h3><br/><br/>
+        <center><table align=center valign="middle">
+                <tr>
+                    <th class=Marisson style="width:150px; height:100px;"><img src="Images/shiny/marisson.png" WIDTH=80 border="0"><br/><B>Marisson #650</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/boguerisse.png" WIDTH=80 border="0"><br/><B>Boguérisse #651</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/blindepique.png" WIDTH=80 border="0"><br/><B>Blindépique #652</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/feunnec.png" WIDTH=80 border="0"><br/><B>Feunnec #653</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/roussil.png" WIDTH=80 border="0"><br/><B>Roussil #654</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/goupelin.png" WIDTH=80 border="0"><br/><B>Goupelin #655</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/grenousse.png" WIDTH=80 border="0"><br/><B>Grenousse #656</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/croaporal.png" WIDTH=80 border="0"><br/><B>Croâporal #657</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/amphinobi.png" WIDTH=80 border="0"><br/><B>Amphinobi #658</B></a></th>
+                </tr>
+                <tr>
+                    <td>???</td>
+                    <td>Pokemaz</td>
+                    <td>CornetBoy</td>
+                    <td>Yuki</td>
+                    <td>Ewox_</td>
+                    <td>Spectra</td>
+                    <td>matheo</td>
+                    <td>Ewox_</td>
+                    <td>Maxeuh</td>
+                </tr>
+                <tr>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/sapereau.png" WIDTH=80 border="0"><br/><B>Sapereau #659</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/excavarenne.png" WIDTH=80 border="0"><br/><B>Excavarenne #660</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/passerouge.png" WIDTH=80 border="0"><br/><B>Passerouge #661</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/braisillon.png" WIDTH=80 border="0"><br/><B>Braisillon #662</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/flambusard.png" WIDTH=80 border="0"><br/><B>Flambusard #663</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/lepidonille.png" WIDTH=80 border="0"><br/><B>Lépidonille #664</B></a></th>
+                    <th class=Pérégrain style="width:150px; height:100px;"><img src="Images/shiny/peregrain.png" WIDTH=80 border="0"><br/><B>Pérégrain #665</B></a></th>
+                    <th class=Prismillon style="width:150px; height:100px;"><img src="Images/shiny/prismillon.png" WIDTH=80 border="0"><br/><B>Prismillon #666</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/helionceau.png" WIDTH=80 border="0"><br/><B>Hélionceau #667</B></a></th>
+                </tr>
+                <tr>
+                    <td>Spectra</td>
+                    <td>Lilishi</td>
+                    <td>Ewox_</td>
+                    <td>Ewox_</td>
+                    <td>CornetBoy</td>
+                    <td>VaaTaX</td>
+                    <td>???</td>
+                    <td>???</td>
+                    <td>Lilishi</td>
+                </tr>
+                <tr>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/nemelios.png" WIDTH=80 border="0"><br/><B>Némélios #668</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/flabebe.png" WIDTH=80 border="0"><br/><B>Flabébé #669</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/floette.png" WIDTH=80 border="0"><br/><B>Floette #670</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/florges.png" WIDTH=80 border="0"><br/><B>Florges #671</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/cabriolaine.png" WIDTH=80 border="0"><br/><B>Cabriolaine #672</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/chevroum.png" WIDTH=80 border="0"><br/><B>Chevroum #673</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/pandespiegle.png" WIDTH=80 border="0"><br/><B>Pandespiègle #674</B></a></th>
+                    <th class=Pandarbare style="width:150px; height:100px;"><img src="Images/shiny/pandarbare.png" WIDTH=80 border="0"><br/><B>Pandarbare #675</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/couafarel.png" WIDTH=80 border="0"><br/><B>Couafarel #676</B></a></th>
+                </tr>
+                <tr>
+                    <td>Ewox_</td>
+                    <td>Yuki</td>
+                    <td>Ewox_</td>
+                    <td>Spectra</td>
+                    <td>Platinium Foxier</td>
+                    <td>Ewox_</td>
+                    <td>matheo</td>
+                    <td>???</td>
+                    <td>Lilishi</td>
+                </tr>
+                <tr>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/psystigri.png" WIDTH=80 border="0"><br/><B>Psystigri #677</B></a></th>
+                    <th class=Mistigrix-m style="width:150px; height:100px;"><img src="Images/shiny/mistigrix-m.png" WIDTH=80 border="0"><br/><B>Mistigrix Male #678</B></a></th>
+                    <th class=Mistigrix-f style="width:150px; height:100px;"><img src="Images/shiny/mistigrix-f.png" WIDTH=80 border="0"><br/><B>Mistigrix Femelle #678</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/monorpale.png" WIDTH=80 border="0"><br/><B>Monorpale #679</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/dimocles.png" WIDTH=80 border="0"><br/><B>Dimoclès #680</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/exagide.png" WIDTH=80 border="0"><br/><B>Exagide #681</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/fluvetin.png" WIDTH=80 border="0"><br/><B>Fluvetin #682</B></a></th>
+                    <th class=Cocotine style="width:150px; height:100px;"><img src="Images/shiny/cocotine.png" WIDTH=80 border="0"><br/><B>Cocotine #683</B></a></th>
+                    <th class=Sucroquin style="width:150px; height:100px;"><img src="Images/shiny/sucroquin.png" WIDTH=80 border="0"><br/><B>Sucroquin #684</B></a></th>
+                </tr>
+                <tr>
+                    <td>kenzo</td>
+                    <td>???</td>
+                    <td>???</td>
+                    <td>FT_NoNo</td>
+                    <td>Infinity_Light</td>
+                    <td>Yuki</td>
+                    <td>Yuki</td>
+                    <td>???</td>
+                    <td>???</td>
+                </tr>
+                <tr>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/cupcanaille.png" WIDTH=80 border="0"><br/><B>Cupcanaille #685</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/sepiatop.png" WIDTH=80 border="0"><br/><B>Sepiatop #686</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/sepiatroce.png" WIDTH=80 border="0"><br/><B>Sepiatroce #687</B></a></th>
+                    <th class=Opermine style="width:150px; height:100px;"><img src="Images/shiny/opermine.png" WIDTH=80 border="0"><br/><B>Opermine #688</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/golgopathe.png" WIDTH=80 border="0"><br/><B>Golgopathe #689</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/venalgue.png" WIDTH=80 border="0"><br/><B>Venalgue #690</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/kravarech.png" WIDTH=80 border="0"><br/><B>Kravarech #691</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/flingouste.png" WIDTH=80 border="0"><br/><B>Flingouste #692</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/gamblast.png" WIDTH=80 border="0"><br/><B>Gamblast #693</B></a></th>
+                </tr>
+                <tr>
+                    <td>CornetBoy</td>
+                    <td>Lilishi</td>
+                    <td>CornetBoy</td>
+                    <td>???</td>
+                    <td>CornetBoy</td>
+                    <td>Mateo</td>
+                    <td>Mateo</td>
+                    <td>50 Rupees</td>
+                    <td>CornetBoy</td>
+                </tr>
+                <tr>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/galvaran.png" WIDTH=80 border="0"><br/><B>Galvaran #694</B></a></th>
+                    <th class=Iguolta style="width:150px; height:100px;"><img src="Images/shiny/iguolta.png" WIDTH=80 border="0"><br/><B>Iguolta #695</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/ptyranidur.png" WIDTH=80 border="0"><br/><B>Ptyranidur #696</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/rexillius.png" WIDTH=80 border="0"><br/><B>Rexillius #697</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/amagara.png" WIDTH=80 border="0"><br/><B>Amagara #698</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/dragmara.png" WIDTH=80 border="0"><br/><B>Dragmara #699</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/nymphali.png" WIDTH=80 border="0"><br/><B>Nymphali #700</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/brutalibre.png" WIDTH=80 border="0"><br/><B>Brutalibré #701</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/dedenne.png" WIDTH=80 border="0"><br/><B>Dedenne #702</B></a></th>
+                </tr>
+                <tr>
+                    <td>Ewox_</td>
+                    <td>???</td>
+                    <td>Max</td>
+                    <td>Infinity_light</td>
+                    <td>Lilishi</td>
+                    <td>Infinity_light</td>
+                    <td>Yuki</td>
+                    <td>Platinium Foxier</td>
+                    <td>Maxime</td>
+                </tr>
+                <tr>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/strassie.png" WIDTH=80 border="0"><br/><B>Strassie #703</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/mucuscule.png" WIDTH=80 border="0"><br/><B>Mucuscule #704</B></a></th>
+                    <th class=Colimucus style="width:150px; height:100px;"><img src="Images/shiny/colimucus.png" WIDTH=80 border="0"><br/><B>Colimucus #705</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/muplodocus.png" WIDTH=80 border="0"><br/><B>Muplodocus #706</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/trousselin.png" WIDTH=80 border="0"><br/><B>Trousselin #707</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/brocelome.png" WIDTH=80 border="0"><br/><B>Brocélôme #708</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/desseliande.png" WIDTH=80 border="0"><br/><B>Desséliande #709</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/pitrouille.png" WIDTH=80 border="0"><br/><B>Pitrouille #710</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/banshitrouye.png" WIDTH=80 border="0"><br/><B>Banshitrouye #711</B></a></th>
+                </tr>
+                <tr>
+                    <td>Ewox_</td>
+                    <td>Lilishi</td>
+                    <td>???</td>
+                    <td>Spectra</td>
+                    <td>Lilishi</td>
+                    <td>CRZ</td>
+                    <td>Yuki</td>
+                    <td>Lilishi</td>
+                    <td>CornetBoy</td>
+                </tr>
+                <tr>
+                    <th class=invisible></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/grelacon.png" WIDTH=80 border="0"><br/><B>Grelaçon #712</B></a></th>
+                    <th class=Séracrawl style="width:150px; height:100px;"><img src="Images/shiny/seracrawl.png" WIDTH=80 border="0"><br/><B>Séracrawl #713</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/sonistrelle.png" WIDTH=80 border="0"><br/><B>Sonistrelle #714</B></a></th>
+                    <th class=Bruyverne style="width:150px; height:100px;"><img src="Images/shiny/bruyverne.png" WIDTH=80 border="0"><br/><B>Bruyverne #715</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/xerneas.png" WIDTH=80 border="0"><br/><B>Xerneas #716</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/yveltal.png" WIDTH=80 border="0"><br/><B>Yveltal #717</B></a></th>
+                    <th class=trouve style="width:150px; height:100px;"><img src="Images/shiny/zygarde.png" WIDTH=80 border="0"><br/><B>Zygarde #718</B></a></th>
+                </tr>
+                <tr>
+                    <td class=invisible></td>
+                    <td>Sach</td>
+                    <td>???</td>
+                    <td>Ewox_</td>
+                    <td>???</td>
+                    <td>Fayoum 2.0</td>
+                    <td>Yuki</td>
+                    <td>CornetBoy</td>
+                </tr>
+        </center></table><br/><br/><br/>
+            </p>    
+        </main>
+        <aside>
+                    <a href="https://discord.gg/JFPrVQV">
+                        <img src="Images/1200px-Discord.svg.png" WIDTH=100 border="0">
+                    <a href=https://www.youtube.com/channel/UCfYXuvKn8WUVhSS4Os8AJtg>
+                        <img src="Images/logo youtube.png" WIDTH=100 border="0">
+        </aside>
+    </body>
