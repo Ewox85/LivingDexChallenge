@@ -274,7 +274,7 @@ td{
 
 @keyframes htmlSlide{
     0%{width: 0%;}
-    100%{width: 75.20%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
+    100%{width: 75.79%;} /*<-- modifier le pourcentage ici pour modifier la taille de la bar*/
 }
 
 @keyframes cssSlide{
@@ -304,5 +304,5 @@ td{
 }
 
 /*------------------------------------*/
-/*898 Pokemon trouvé sur 1194*/
+/*905 Pokemon trouvé sur 1194*/
 /*------------------------------------*/
