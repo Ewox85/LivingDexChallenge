@@ -63,6 +63,10 @@ a{
 
 /*/---LivingDex---/*/
 
+.table-container {
+    overflow-x: auto;
+}
+
 .livingdex{
     border: black 3px solid;
     background-color: #474747;
